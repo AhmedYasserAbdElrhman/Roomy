@@ -8,8 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class LandingViewController: UIViewController {
+    @IBAction func showLogin(_ sender: Any) {
+        self.performSegue(withIdentifier: "SignInView", sender: self)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -17,4 +19,5 @@ class ViewController: UIViewController {
 
 
 }
+
 

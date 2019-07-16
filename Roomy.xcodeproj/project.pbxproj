@@ -8,20 +8,64 @@
 
 /* Begin PBXBuildFile section */
 		2F3DCDD022D8B2B700F49B74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3DCDCF22D8B2B700F49B74 /* AppDelegate.swift */; };
-		2F3DCDD222D8B2B700F49B74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3DCDD122D8B2B700F49B74 /* ViewController.swift */; };
+		2F3DCDD222D8B2B700F49B74 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3DCDD122D8B2B700F49B74 /* LandingViewController.swift */; };
 		2F3DCDD522D8B2B700F49B74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F3DCDD322D8B2B700F49B74 /* Main.storyboard */; };
-		2F3DCDD722D8B2B800F49B74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F3DCDD622D8B2B800F49B74 /* Assets.xcassets */; };
 		2F3DCDDA22D8B2B800F49B74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F3DCDD822D8B2B800F49B74 /* LaunchScreen.storyboard */; };
+		2F3DCDE222D8B97D00F49B74 /* Homeicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F3DCDE122D8B97D00F49B74 /* Homeicon.png */; };
+		2F3DCDE722D8C54A00F49B74 /* fbicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F3DCDE322D8C54A00F49B74 /* fbicon.png */; };
+		2F3DCDE822D8C54A00F49B74 /* inicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F3DCDE422D8C54A00F49B74 /* inicon.png */; };
+		2F3DCDE922D8C54A00F49B74 /* Twittericon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F3DCDE522D8C54A00F49B74 /* Twittericon.png */; };
+		2F3DCDEA22D8C54A00F49B74 /* Gicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F3DCDE622D8C54A00F49B74 /* Gicon.png */; };
+		2F52452422D8D6C600077C9C /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F52452322D8D6C600077C9C /* RoundedButton.swift */; };
+		2FBF413A22DE232000BDCB99 /* descriproom.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FBF413922DE232000BDCB99 /* descriproom.png */; };
+		2FCC6D7F22DD0D720061882A /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCC6D7E22DD0D720061882A /* download.png */; };
+		2FCC6D8122DD26A80061882A /* RoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC6D8022DD26A80061882A /* RoomCell.swift */; };
+		2FCC6D8322DD3E0E0061882A /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC6D8222DD3E0E0061882A /* Room.swift */; };
+		2FCC6D8E22DD4BD50061882A /* room4_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCC6D8422DD4BD40061882A /* room4_3.png */; };
+		2FCC6D8F22DD4BD50061882A /* room1_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCC6D8522DD4BD40061882A /* room1_2.png */; };
+		2FCC6D9022DD4BD50061882A /* room1_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCC6D8622DD4BD40061882A /* room1_3.png */; };
+		2FCC6D9122DD4BD50061882A /* room3_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCC6D8722DD4BD50061882A /* room3_2.png */; };
+		2FCC6D9222DD4BD50061882A /* room2_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCC6D8822DD4BD50061882A /* room2_3.png */; };
+		2FCC6D9322DD4BD50061882A /* room2_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCC6D8922DD4BD50061882A /* room2_2.png */; };
+		2FCC6D9422DD4BD50061882A /* room2_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCC6D8A22DD4BD50061882A /* room2_1.png */; };
+		2FCC6D9522DD4BD50061882A /* room1_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCC6D8B22DD4BD50061882A /* room1_1.png */; };
+		2FCC6D9622DD4BD50061882A /* room3_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCC6D8C22DD4BD50061882A /* room3_3.png */; };
+		2FCC6D9722DD4BD50061882A /* room4_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCC6D8D22DD4BD50061882A /* room4_1.png */; };
+		2FCC6D9922DD580E0061882A /* landing.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FCC6D9822DD580E0061882A /* landing.png */; };
+		2FCC6D9B22DD59A80061882A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC6D9A22DD59A80061882A /* SignInViewController.swift */; };
+		2FCC6D9D22DD5A210061882A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC6D9C22DD5A210061882A /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2F3DCDCC22D8B2B700F49B74 /* Roomy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roomy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F3DCDCF22D8B2B700F49B74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F3DCDD122D8B2B700F49B74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F3DCDD122D8B2B700F49B74 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		2F3DCDD422D8B2B700F49B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2F3DCDD622D8B2B800F49B74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F3DCDD922D8B2B800F49B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F3DCDDB22D8B2B800F49B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F3DCDE122D8B97D00F49B74 /* Homeicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Homeicon.png; sourceTree = "<group>"; };
+		2F3DCDE322D8C54A00F49B74 /* fbicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fbicon.png; sourceTree = "<group>"; };
+		2F3DCDE422D8C54A00F49B74 /* inicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inicon.png; sourceTree = "<group>"; };
+		2F3DCDE522D8C54A00F49B74 /* Twittericon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twittericon.png; sourceTree = "<group>"; };
+		2F3DCDE622D8C54A00F49B74 /* Gicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gicon.png; sourceTree = "<group>"; };
+		2F52452322D8D6C600077C9C /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		2FBF413922DE232000BDCB99 /* descriproom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = descriproom.png; sourceTree = "<group>"; };
+		2FCC6D7E22DD0D720061882A /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
+		2FCC6D8022DD26A80061882A /* RoomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCell.swift; sourceTree = "<group>"; };
+		2FCC6D8222DD3E0E0061882A /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		2FCC6D8422DD4BD40061882A /* room4_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = room4_3.png; sourceTree = "<group>"; };
+		2FCC6D8522DD4BD40061882A /* room1_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = room1_2.png; sourceTree = "<group>"; };
+		2FCC6D8622DD4BD40061882A /* room1_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = room1_3.png; sourceTree = "<group>"; };
+		2FCC6D8722DD4BD50061882A /* room3_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = room3_2.png; sourceTree = "<group>"; };
+		2FCC6D8822DD4BD50061882A /* room2_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = room2_3.png; sourceTree = "<group>"; };
+		2FCC6D8922DD4BD50061882A /* room2_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = room2_2.png; sourceTree = "<group>"; };
+		2FCC6D8A22DD4BD50061882A /* room2_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = room2_1.png; sourceTree = "<group>"; };
+		2FCC6D8B22DD4BD50061882A /* room1_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = room1_1.png; sourceTree = "<group>"; };
+		2FCC6D8C22DD4BD50061882A /* room3_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = room3_3.png; sourceTree = "<group>"; };
+		2FCC6D8D22DD4BD50061882A /* room4_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = room4_1.png; sourceTree = "<group>"; };
+		2FCC6D9822DD580E0061882A /* landing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landing.png; sourceTree = "<group>"; };
+		2FCC6D9A22DD59A80061882A /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		2FCC6D9C22DD5A210061882A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +99,33 @@
 			isa = PBXGroup;
 			children = (
 				2F3DCDCF22D8B2B700F49B74 /* AppDelegate.swift */,
-				2F3DCDD122D8B2B700F49B74 /* ViewController.swift */,
+				2F3DCDE122D8B97D00F49B74 /* Homeicon.png */,
+				2F3DCDE322D8C54A00F49B74 /* fbicon.png */,
+				2F3DCDE622D8C54A00F49B74 /* Gicon.png */,
+				2F3DCDE422D8C54A00F49B74 /* inicon.png */,
+				2F3DCDE522D8C54A00F49B74 /* Twittericon.png */,
+				2F3DCDD122D8B2B700F49B74 /* LandingViewController.swift */,
+				2FCC6D9C22DD5A210061882A /* HomeViewController.swift */,
+				2FCC6D9A22DD59A80061882A /* SignInViewController.swift */,
+				2FCC6D8B22DD4BD50061882A /* room1_1.png */,
+				2FCC6D8522DD4BD40061882A /* room1_2.png */,
+				2FCC6D8622DD4BD40061882A /* room1_3.png */,
+				2FCC6D8A22DD4BD50061882A /* room2_1.png */,
+				2FCC6D8922DD4BD50061882A /* room2_2.png */,
+				2FCC6D8822DD4BD50061882A /* room2_3.png */,
+				2FCC6D8722DD4BD50061882A /* room3_2.png */,
+				2FCC6D8C22DD4BD50061882A /* room3_3.png */,
+				2FCC6D8D22DD4BD50061882A /* room4_1.png */,
+				2FCC6D8422DD4BD40061882A /* room4_3.png */,
+				2FBF413922DE232000BDCB99 /* descriproom.png */,
+				2FCC6D9822DD580E0061882A /* landing.png */,
+				2FCC6D7E22DD0D720061882A /* download.png */,
 				2F3DCDD322D8B2B700F49B74 /* Main.storyboard */,
-				2F3DCDD622D8B2B800F49B74 /* Assets.xcassets */,
+				2FCC6D8022DD26A80061882A /* RoomCell.swift */,
+				2FCC6D8222DD3E0E0061882A /* Room.swift */,
 				2F3DCDD822D8B2B800F49B74 /* LaunchScreen.storyboard */,
 				2F3DCDDB22D8B2B800F49B74 /* Info.plist */,
+				2F52452322D8D6C600077C9C /* RoundedButton.swift */,
 			);
 			path = Roomy;
 			sourceTree = "<group>";
@@ -122,9 +188,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FCC6D9922DD580E0061882A /* landing.png in Resources */,
+				2F3DCDE922D8C54A00F49B74 /* Twittericon.png in Resources */,
+				2FCC6D9422DD4BD50061882A /* room2_1.png in Resources */,
+				2FCC6D8E22DD4BD50061882A /* room4_3.png in Resources */,
+				2FCC6D9322DD4BD50061882A /* room2_2.png in Resources */,
 				2F3DCDDA22D8B2B800F49B74 /* LaunchScreen.storyboard in Resources */,
-				2F3DCDD722D8B2B800F49B74 /* Assets.xcassets in Resources */,
 				2F3DCDD522D8B2B700F49B74 /* Main.storyboard in Resources */,
+				2F3DCDE722D8C54A00F49B74 /* fbicon.png in Resources */,
+				2FCC6D9722DD4BD50061882A /* room4_1.png in Resources */,
+				2FBF413A22DE232000BDCB99 /* descriproom.png in Resources */,
+				2F3DCDEA22D8C54A00F49B74 /* Gicon.png in Resources */,
+				2FCC6D9022DD4BD50061882A /* room1_3.png in Resources */,
+				2FCC6D9122DD4BD50061882A /* room3_2.png in Resources */,
+				2F3DCDE222D8B97D00F49B74 /* Homeicon.png in Resources */,
+				2FCC6D9622DD4BD50061882A /* room3_3.png in Resources */,
+				2FCC6D9222DD4BD50061882A /* room2_3.png in Resources */,
+				2FCC6D9522DD4BD50061882A /* room1_1.png in Resources */,
+				2F3DCDE822D8C54A00F49B74 /* inicon.png in Resources */,
+				2FCC6D7F22DD0D720061882A /* download.png in Resources */,
+				2FCC6D8F22DD4BD50061882A /* room1_2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +218,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F3DCDD222D8B2B700F49B74 /* ViewController.swift in Sources */,
+				2F3DCDD222D8B2B700F49B74 /* LandingViewController.swift in Sources */,
+				2F52452422D8D6C600077C9C /* RoundedButton.swift in Sources */,
+				2FCC6D9B22DD59A80061882A /* SignInViewController.swift in Sources */,
+				2FCC6D8122DD26A80061882A /* RoomCell.swift in Sources */,
 				2F3DCDD022D8B2B700F49B74 /* AppDelegate.swift in Sources */,
+				2FCC6D9D22DD5A210061882A /* HomeViewController.swift in Sources */,
+				2FCC6D8322DD3E0E0061882A /* Room.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
