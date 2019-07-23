@@ -555,35 +555,30 @@
                                     <action selector="toSignUpView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cVp-Ir-L3e"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="RpS-jZ-8n3">
-                                <rect key="frame" x="25" y="557" width="325" height="73"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="DNk-i3-fUr">
+                                <rect key="frame" x="26" y="557" width="322" height="73"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FNQ-qJ-4sW">
-                                        <rect key="frame" x="0.0" y="0.0" width="76" height="73"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FNQ-qJ-4sW">
+                                        <rect key="frame" x="0.0" y="0.0" width="73" height="73"/>
                                         <state key="normal" image="Gicon" backgroundImage="Oval"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="14"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cN-ht-n73" customClass="RoundedButton" customModule="Roomy" customModuleProvider="target">
-                                        <rect key="frame" x="86" y="0.0" width="73" height="73"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cN-ht-n73" customClass="RoundedButton" customModule="Roomy" customModuleProvider="target">
+                                        <rect key="frame" x="83" y="0.0" width="73" height="73"/>
                                         <state key="normal" image="fbicon" backgroundImage="Oval"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFe-Dn-aK3" customClass="RoundedButton" customModule="Roomy" customModuleProvider="target">
-                                        <rect key="frame" x="169" y="0.0" width="73" height="73"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFe-Dn-aK3" customClass="RoundedButton" customModule="Roomy" customModuleProvider="target">
+                                        <rect key="frame" x="166" y="0.0" width="73" height="73"/>
                                         <state key="normal" image="Twittericon" backgroundImage="Oval"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXN-nJ-H7U" customClass="RoundedButton" customModule="Roomy" customModuleProvider="target">
-                                        <rect key="frame" x="252" y="0.0" width="73" height="73"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXN-nJ-H7U" customClass="RoundedButton" customModule="Roomy" customModuleProvider="target">
+                                        <rect key="frame" x="249" y="0.0" width="73" height="73"/>
                                         <size key="titleShadowOffset" width="19" height="15"/>
                                         <state key="normal" image="inicon" backgroundImage="Oval"/>
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="322" id="8KW-LK-dLy"/>
-                                    <constraint firstAttribute="height" constant="73" id="bNm-sZ-SOm"/>
+                                    <constraint firstAttribute="height" constant="73" id="If7-IR-iwX"/>
+                                    <constraint firstAttribute="width" constant="322" id="f6t-3L-EYz"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -594,9 +589,7 @@
                             <constraint firstItem="tQX-JI-zum" firstAttribute="top" secondItem="Tdk-pg-sCE" secondAttribute="bottom" constant="15" id="3Dw-ND-5ng"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VkC-U5-pp4" secondAttribute="trailing" constant="63" id="494-Fg-f46"/>
                             <constraint firstItem="fa1-9Z-UGN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="79" id="973-Wn-Zdr"/>
-                            <constraint firstItem="VkC-U5-pp4" firstAttribute="top" secondItem="RpS-jZ-8n3" secondAttribute="bottom" constant="1" id="A76-Em-CVS"/>
-                            <constraint firstItem="RpS-jZ-8n3" firstAttribute="top" secondItem="WCu-xS-pVH" secondAttribute="bottom" constant="39.5" id="BbC-jq-44f"/>
-                            <constraint firstItem="5kh-Cc-wc0" firstAttribute="top" secondItem="RpS-jZ-8n3" secondAttribute="bottom" constant="6.5" id="CYa-S5-LYC"/>
+                            <constraint firstItem="DNk-i3-fUr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="26" id="Bjx-9o-FvM"/>
                             <constraint firstItem="MmM-vU-LBa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="FO2-9P-BhT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tdk-pg-sCE" secondAttribute="trailing" constant="143" id="GCH-59-Csf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MmM-vU-LBa" secondAttribute="trailing" constant="16" id="HyX-eh-w7n"/>
@@ -607,7 +600,6 @@
                             <constraint firstItem="qBS-jb-mLl" firstAttribute="top" secondItem="hHV-ji-24D" secondAttribute="bottom" constant="12" id="Ru7-98-t0W"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GMr-P3-i17" secondAttribute="trailing" constant="10" id="S1G-QY-syK"/>
                             <constraint firstItem="5kh-Cc-wc0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="S2f-9x-ODa"/>
-                            <constraint firstItem="RpS-jZ-8n3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="T5n-9r-1Hh"/>
                             <constraint firstItem="qBS-jb-mLl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ZLf-LH-8yS"/>
                             <constraint firstItem="4DZ-xG-XFN" firstAttribute="top" secondItem="tQX-JI-zum" secondAttribute="bottom" constant="45" id="Zo5-TU-y4e"/>
                             <constraint firstItem="Tdk-pg-sCE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="143" id="a3Q-Rb-8p5"/>
@@ -617,7 +609,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WCu-xS-pVH" secondAttribute="trailing" constant="180" id="jqN-dl-gDT"/>
                             <constraint firstItem="fa1-9Z-UGN" firstAttribute="top" secondItem="qBS-jb-mLl" secondAttribute="bottom" constant="53" id="mO3-zO-bUE"/>
                             <constraint firstItem="GMr-P3-i17" firstAttribute="top" secondItem="qBS-jb-mLl" secondAttribute="bottom" constant="16" id="nDU-lX-E05"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RpS-jZ-8n3" secondAttribute="trailing" constant="25" id="oUN-r5-ajg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DNk-i3-fUr" secondAttribute="trailing" constant="27" id="nq3-n7-pjW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5kh-Cc-wc0" secondAttribute="bottom" constant="10" id="qe9-9m-SLE"/>
                             <constraint firstItem="tQX-JI-zum" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="136" id="qxC-JX-Wfs"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VkC-U5-pp4" secondAttribute="bottom" constant="6" id="r8Y-Js-EJc"/>
@@ -649,6 +641,7 @@
         <image name="landing" width="374" height="415"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="uka-2C-09W"/>
         <segue reference="zMS-3q-dUt"/>
         <segue reference="6Ya-cO-dh6"/>
     </inferredMetricsTieBreakers>

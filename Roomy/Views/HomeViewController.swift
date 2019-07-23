@@ -25,11 +25,11 @@ class HomeViewController: UIViewController{
     override func viewWillDisappear(_ animated: Bool) {
         self.navigationController?.isNavigationBarHidden = false
     }
-    func creatArray() -> [Room]
+    func creatArray() -> [Roominit]
     {
-        var tempCell : [Room] = []
+        var tempCell : [Roominit] = []
         for i in 0...3 {
-            let cell = Room.init(image: images[i], adress: hotelAdress[i], cityAdress: stateAdress[i], price: price[i], info: info[i])
+            let cell = Roominit.init(image: images[i], adress: hotelAdress[i], cityAdress: stateAdress[i], price: price[i], info: info[i])
             tempCell.append(cell)
         }
         return tempCell
