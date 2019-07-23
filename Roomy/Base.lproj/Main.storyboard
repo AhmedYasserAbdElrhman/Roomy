@@ -42,7 +42,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="landing" translatesAutoresizingMaskIntoConstraints="NO" id="vFJ-1b-W2Q">
-                                <rect key="frame" x="0.0" y="376" width="375.00000000000006" height="291"/>
+                                <rect key="frame" x="0.0" y="376" width="375" height="291"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="291" id="6Hd-MK-BSo"/>
                                 </constraints>
