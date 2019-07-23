@@ -42,7 +42,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="landing" translatesAutoresizingMaskIntoConstraints="NO" id="vFJ-1b-W2Q">
-                                <rect key="frame" x="0.0" y="376" width="375" height="291"/>
+                                <rect key="frame" x="0.0" y="376" width="375.00000000000006" height="291"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="291" id="6Hd-MK-BSo"/>
                                 </constraints>
@@ -555,22 +555,22 @@
                                     <action selector="toSignUpView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cVp-Ir-L3e"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="DNk-i3-fUr">
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="DNk-i3-fUr">
                                 <rect key="frame" x="26" y="557" width="322" height="73"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FNQ-qJ-4sW">
-                                        <rect key="frame" x="0.0" y="0.0" width="73" height="73"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FNQ-qJ-4sW">
+                                        <rect key="frame" x="0.0" y="0.0" width="76" height="73"/>
                                         <state key="normal" image="Gicon" backgroundImage="Oval"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cN-ht-n73" customClass="RoundedButton" customModule="Roomy" customModuleProvider="target">
-                                        <rect key="frame" x="83" y="0.0" width="73" height="73"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cN-ht-n73" customClass="RoundedButton" customModule="Roomy" customModuleProvider="target">
+                                        <rect key="frame" x="85" y="0.0" width="73" height="73"/>
                                         <state key="normal" image="fbicon" backgroundImage="Oval"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFe-Dn-aK3" customClass="RoundedButton" customModule="Roomy" customModuleProvider="target">
-                                        <rect key="frame" x="166" y="0.0" width="73" height="73"/>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BFe-Dn-aK3" customClass="RoundedButton" customModule="Roomy" customModuleProvider="target">
+                                        <rect key="frame" x="167" y="0.0" width="73" height="73"/>
                                         <state key="normal" image="Twittericon" backgroundImage="Oval"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXN-nJ-H7U" customClass="RoundedButton" customModule="Roomy" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXN-nJ-H7U" customClass="RoundedButton" customModule="Roomy" customModuleProvider="target">
                                         <rect key="frame" x="249" y="0.0" width="73" height="73"/>
                                         <size key="titleShadowOffset" width="19" height="15"/>
                                         <state key="normal" image="inicon" backgroundImage="Oval"/>

@@ -12,8 +12,7 @@ import Alamofire
 class NetworkCall:NSObject {
     class func login (email:String,password:String, completion: @escaping (Error?,Bool) -> Void ){
         let paramters = ["email":email,"password":password]
-        let url = URLS.loginURL
-        Alamofire.request(url, method: .post, parameters: paramters, headers: nil) .validate() .responseJSON { respone in
+        Alamofire.request(NetworkRoute.login(paramters)) .validate() .responseJSON { respone in
             switch respone.response?.statusCode {
             case 401:
                 completion(nil,false)
@@ -29,7 +28,7 @@ class NetworkCall:NSObject {
     }
     class func signUp(name:String,email:String,password:String, completion: @escaping (Error?,Bool) ->Void){
         let paramters = ["name":name,"email":email,"password":password]
-        Alamofire.request(URLS.registerURL, method: .post, parameters: paramters, headers: nil) .validate() .responseJSON{ response in
+        Alamofire.request(NetworkRoute.register(paramters)) .validate() .responseJSON{ response in
             switch response.result{
             case .failure(let error):
                 completion(error,false)
