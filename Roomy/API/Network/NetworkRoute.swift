@@ -24,7 +24,7 @@ enum NetworkRoute :URLRequestConvertible {
                 
             }
         }
-        let parameters : ([String: Any]?) = {
+    let parameters : ([String: Any]?) = {
             switch self {
             case .login(let para) , .addRoom(let para) , .register(let para):
                 return para
@@ -33,7 +33,7 @@ enum NetworkRoute :URLRequestConvertible {
             }
         }()
         
-        let url : URL = {
+    let url : URL = {
             let destURL : String?
             switch  self {
             case .login:
@@ -51,7 +51,7 @@ enum NetworkRoute :URLRequestConvertible {
             return url
 
     }()
-        let headers : HTTPHeaders = {
+    let headers : HTTPHeaders = {
             let authHeaders : [String:String]?
             switch self {
             case .login, .register:
@@ -61,7 +61,7 @@ enum NetworkRoute :URLRequestConvertible {
             }
             return  authHeaders!
         }()
-        var urlRequest = URLRequest(url: url)
+    var urlRequest = URLRequest(url: url)
         urlRequest.httpMethod = method.rawValue
         let encoding : ParameterEncoding = {
             switch method {
@@ -71,7 +71,7 @@ enum NetworkRoute :URLRequestConvertible {
                 return JSONEncoding.default
             }
         }()
-        return try encoding.encode(urlRequest, with: parameters)
+    return try encoding.encode(urlRequest, with: parameters)
 
  }
     

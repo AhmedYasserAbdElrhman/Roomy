@@ -555,7 +555,7 @@
                                     <action selector="toSignUpView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cVp-Ir-L3e"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="DNk-i3-fUr">
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="DNk-i3-fUr">
                                 <rect key="frame" x="26" y="557" width="322" height="73"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FNQ-qJ-4sW">
@@ -596,6 +596,7 @@
                             <constraint firstItem="hHV-ji-24D" firstAttribute="top" secondItem="MmM-vU-LBa" secondAttribute="bottom" constant="24" id="IdO-pl-qj1"/>
                             <constraint firstItem="VkC-U5-pp4" firstAttribute="leading" secondItem="5kh-Cc-wc0" secondAttribute="trailing" constant="1" id="KwV-zI-XjM"/>
                             <constraint firstItem="WCu-xS-pVH" firstAttribute="top" secondItem="fa1-9Z-UGN" secondAttribute="bottom" constant="25" id="MZM-4o-x0u"/>
+                            <constraint firstItem="DNk-i3-fUr" firstAttribute="top" secondItem="WCu-xS-pVH" secondAttribute="bottom" constant="39.5" id="PIB-o6-5B8"/>
                             <constraint firstItem="MmM-vU-LBa" firstAttribute="top" secondItem="4DZ-xG-XFN" secondAttribute="bottom" constant="12" id="QMd-XO-F3c"/>
                             <constraint firstItem="qBS-jb-mLl" firstAttribute="top" secondItem="hHV-ji-24D" secondAttribute="bottom" constant="12" id="Ru7-98-t0W"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GMr-P3-i17" secondAttribute="trailing" constant="10" id="S1G-QY-syK"/>
@@ -641,7 +642,6 @@
         <image name="landing" width="374" height="415"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="uka-2C-09W"/>
         <segue reference="zMS-3q-dUt"/>
         <segue reference="6Ya-cO-dh6"/>
     </inferredMetricsTieBreakers>
