@@ -51,7 +51,7 @@ enum NetworkRoute :URLRequestConvertible {
             return url
 
     }()
-    let headers : HTTPHeaders = {
+    let headers : HTTPHeaders! = {
             let authHeaders : [String:String]?
             switch self {
             case .login, .register:
@@ -59,7 +59,7 @@ enum NetworkRoute :URLRequestConvertible {
             case .addRoom, .getRooms:
                 authHeaders = ["Authorization": UserDefaults.standard.object(forKey: "auth_token") as! String ]
             }
-            return  authHeaders!
+            return  authHeaders
         }()
     var urlRequest = URLRequest(url: url)
         urlRequest.httpMethod = method.rawValue
