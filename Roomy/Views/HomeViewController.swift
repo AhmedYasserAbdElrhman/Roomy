@@ -19,8 +19,22 @@ class HomeViewController: UIViewController{
     
     @IBOutlet weak var tableO: UITableView!
     override func viewWillAppear(_ animated: Bool) {
-       rooms =  (Connection.isConnected() ? getRealm() : creatArray())
+        if Connection.isConnected() {
+            FetchRooms.getRoomsInBackend { (error, rooms) in
+                if let rooms = rooms {
+                    self.rooms = rooms
+                }
+            }
+        }
+        else {
+            FetchRooms.getRoomsInDB { (error, rooms) in
+                if let rooms = rooms {
+                    self.rooms = rooms
+                }
+
+        }
     }
+}
     override func viewDidLoad() {
         super.viewDidLoad()
         super.navigationController?.isNavigationBarHidden = true

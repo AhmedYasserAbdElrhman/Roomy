@@ -17,7 +17,7 @@ class Room : NSObject{
     var price:String = ""
     var info:String = ""
     var descriptionText: String = ""
-    var descriptionPic: UIImage = UIImage(named: "Homeicon")!
+    var descriptionPic: UIImage = UIImage(named: "Placeholder")!
     var descriptionL: String = ""
     /*init(image:[UIImage],adress:String,cityAdress:String,price:String,info:String) {
         self.image=image

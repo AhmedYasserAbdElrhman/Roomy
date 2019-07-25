@@ -7,3 +7,9 @@
 //
 
 import Foundation
+import Alamofire
+class Connection {
+    class func  isConnected () -> Bool {
+        return NetworkReachabilityManager()?.isReachable ?? false
+    }
+}

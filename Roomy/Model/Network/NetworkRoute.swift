@@ -11,7 +11,7 @@ import Alamofire
 enum NetworkRoute :URLRequestConvertible {
     case login([String: Any])
     case register([String: Any])
-    case getRooms([String: Any])
+    case getRooms
     case addRoom([String: Any])
  
     func asURLRequest() throws -> URLRequest {
@@ -57,12 +57,13 @@ enum NetworkRoute :URLRequestConvertible {
             case .login, .register:
                 authHeaders =  nil
             case .addRoom, .getRooms:
-                authHeaders = ["Authorization": UserDefaults.standard.string(forKey: "auth_token")] as! [String : String]
+                authHeaders = ["Authorization": UserDefaults.standard.object(forKey: "auth_token") as! String ]
             }
             return  authHeaders!
         }()
     var urlRequest = URLRequest(url: url)
         urlRequest.httpMethod = method.rawValue
+        urlRequest.allHTTPHeaderFields = headers
         let encoding : ParameterEncoding = {
             switch method {
             case .get:

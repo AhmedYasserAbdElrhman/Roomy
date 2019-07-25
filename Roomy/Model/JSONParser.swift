@@ -20,14 +20,15 @@ class Parser:NSObject {
         var rooms = [Room]()
         for reply in value{
             guard let reply = reply.dictionary else {return nil}
-        
-        let room = Room()
-        room.id = reply["id"]?.int ?? 0
-        room.adress = reply["title"]?.string ?? ""
-        room.price = reply["price"]?.string ?? "0"
-        room.stateAdress = reply["place"]?.string ?? ""
-        room.descriptionL = reply["image"]?.string ?? ""
-        rooms.append(room)
+            let offlineRoom = roomsOFFline()
+            let room = Room()
+            room.id = reply["id"]?.int ?? 0
+            room.adress = reply["title"]?.string ?? ""
+            room.price = reply["price"]?.string ?? "0"
+            room.stateAdress = reply["place"]?.string ?? ""
+            room.descriptionL = reply["image"]?.string ?? ""
+            rooms.append(room)
+            offlineRoom.addDB(room: room)
     }
     return rooms
 
