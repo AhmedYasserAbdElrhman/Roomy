@@ -17,7 +17,7 @@ class NetworkCall:NSObject {
             case 401:
                 completion(nil,false)
             case 200:
-                let json = JSON(respone.result)
+                let json = JSON(respone.result.value)
                 Parser.parseLogin(from: json)
                 completion(nil,true)
             default:
