@@ -16,11 +16,13 @@ class Parser:NSObject {
             session.set(api, forKey: "auth_token")
         }
     }
+    
+    
     class func parseRooms(from value : [JSON])->[Room]!{
         var rooms = [Room]()
+//        let offlineRoom = roomsOFFline()
         for reply in value{
             guard let reply = reply.dictionary else {return nil}
-            let offlineRoom = roomsOFFline()
             let room = Room()
             room.id = reply["id"]?.int ?? 0
             room.adress = reply["title"]?.string ?? ""
@@ -28,7 +30,7 @@ class Parser:NSObject {
             room.stateAdress = reply["place"]?.string ?? ""
             room.descriptionL = reply["image"]?.string ?? ""
             rooms.append(room)
-            offlineRoom.addDB(room: room)
+//            offlineRoom.addDB(room: room)
     }
     return rooms
 

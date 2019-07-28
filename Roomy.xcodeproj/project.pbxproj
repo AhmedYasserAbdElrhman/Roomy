@@ -20,7 +20,6 @@
 		2F4CEB2E22E63C8C00472246 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4CEB2D22E63C8C00472246 /* String.swift */; };
 		2F52452422D8D6C600077C9C /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F52452322D8D6C600077C9C /* RoundedButton.swift */; };
 		2F54730B22E72F97000D3075 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F54730A22E72F97000D3075 /* JSONParser.swift */; };
-		2F54730F22E7563D000D3075 /* Roominit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F54730E22E7563D000D3075 /* Roominit.swift */; };
 		2FCC6D8122DD26A80061882A /* RoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC6D8022DD26A80061882A /* RoomCell.swift */; };
 		2FCC6D8322DD3E0E0061882A /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC6D8222DD3E0E0061882A /* Room.swift */; };
 		2FCC6D9B22DD59A80061882A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC6D9A22DD59A80061882A /* SignInViewController.swift */; };
@@ -48,7 +47,6 @@
 		2F4CEB2D22E63C8C00472246 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		2F52452322D8D6C600077C9C /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		2F54730A22E72F97000D3075 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
-		2F54730E22E7563D000D3075 /* Roominit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roominit.swift; sourceTree = "<group>"; };
 		2FCC6D8022DD26A80061882A /* RoomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCell.swift; sourceTree = "<group>"; };
 		2FCC6D8222DD3E0E0061882A /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		2FCC6D9A22DD59A80061882A /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
@@ -140,7 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				2FCC6D8022DD26A80061882A /* RoomCell.swift */,
-				2F54730E22E7563D000D3075 /* Roominit.swift */,
 				2FCC6D8222DD3E0E0061882A /* Room.swift */,
 				2F52452322D8D6C600077C9C /* RoundedButton.swift */,
 				2F4CEB2D22E63C8C00472246 /* String.swift */,
@@ -296,7 +293,6 @@
 				2F47C21022E8B62600DD0E51 /* TableViewExt.swift in Sources */,
 				2F4CEB2A22E6315F00472246 /* NetworkRoute.swift in Sources */,
 				2F4CEB2C22E6320700472246 /* URL.swift in Sources */,
-				2F54730F22E7563D000D3075 /* Roominit.swift in Sources */,
 				2F54730B22E72F97000D3075 /* JSONParser.swift in Sources */,
 				2FCC6D9B22DD59A80061882A /* SignInViewController.swift in Sources */,
 				2FCC6D8122DD26A80061882A /* RoomCell.swift in Sources */,

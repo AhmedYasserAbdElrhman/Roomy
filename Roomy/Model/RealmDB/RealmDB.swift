@@ -11,7 +11,7 @@ import RealmSwift
 
 class roomsOFFline : Object {
     @objc dynamic var id : Int = 0
-    @objc dynamic var image:[UIImage] = [UIImage]()
+    @objc dynamic var image:String = ""
     @objc dynamic var adress:String = ""
     @objc dynamic var stateAdress:String = ""
     @objc dynamic var price:String = ""

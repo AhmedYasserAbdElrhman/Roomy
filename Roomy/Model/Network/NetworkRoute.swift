@@ -51,7 +51,7 @@ enum NetworkRoute :URLRequestConvertible {
             return url
 
     }()
-    let headers : HTTPHeaders! = {
+    let headers : HTTPHeaders? = {
             let authHeaders : [String:String]?
             switch self {
             case .login, .register:
@@ -63,7 +63,7 @@ enum NetworkRoute :URLRequestConvertible {
         }()
     var urlRequest = URLRequest(url: url)
         urlRequest.httpMethod = method.rawValue
-        urlRequest.allHTTPHeaderFields = headers
+        urlRequest.setValue(UserDefaults.standard.object(forKey: "auth_token") as! String, forHTTPHeaderField: "Authorization") 
         let encoding : ParameterEncoding = {
             switch method {
             case .get:

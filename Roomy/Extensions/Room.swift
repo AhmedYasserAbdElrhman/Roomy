@@ -11,7 +11,7 @@ import UIKit
 
 class Room : NSObject{
     var id : Int = 0
-    var image:[UIImage] = [UIImage]()
+    var image:String = ""
     var adress:String = ""
     var stateAdress:String = ""
     var price:String = ""
