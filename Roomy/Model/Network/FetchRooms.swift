@@ -31,10 +31,6 @@ class FetchRooms : NSObject {
     }
     
     class func getRoomsInDB( completion : @escaping (Error?,[Room]?) -> Void ){
-        guard let tokens = UserDefaults.standard.object(forKey: "auth_token") as? String else {
-            completion(nil,nil)
-            return
-        }
         let offlineRooms = roomsOFFline()
         let dbRooms = offlineRooms.readAllRooms()
         let parsRooms = Parser.parseRooms(from: JSON(dbRooms).array!)

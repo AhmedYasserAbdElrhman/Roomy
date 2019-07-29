@@ -20,6 +20,10 @@ class roomsOFFline : Object {
     @objc dynamic var descriptionPic: UIImage = UIImage(named: "Placeholder")!
     @objc dynamic var descriptionL: String = ""
     
+    override static func primaryKey() -> String? {
+        return "id"
+    }
+    
     func addDB (room : Room){
         let realm = try! Realm()
         try! realm.write {

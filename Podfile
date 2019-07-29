@@ -10,5 +10,6 @@ pod 'Alamofire', '~> 4.8.2-beta.5'
 pod 'SwiftyJSON', '~> 4.0'
 pod 'Kingfisher', '~> 5.0'
 pod 'RealmSwift'
+pod 'NVActivityIndicatorView'
 
 end

@@ -20,10 +20,10 @@ class Parser:NSObject {
     
     class func parseRooms(from value : [JSON])->[Room]!{
         var rooms = [Room]()
-//        let offlineRoom = roomsOFFline()
         for reply in value{
             guard let reply = reply.dictionary else {return nil}
             let room = Room()
+//            let offlineRoom = roomsOFFline()
             room.id = reply["id"]?.int ?? 0
             room.adress = reply["title"]?.string ?? ""
             room.price = reply["price"]?.string ?? "0"

@@ -24,7 +24,7 @@ class RoomCell: UITableViewCell {
         roomPrice.text = cell.price
         roomSatate.text = cell.stateAdress
         roomInfo.text = cell.info
-        if let url = URL(string:cell.image){
+        if let url = URL(string:cell.descriptionL){
         roomImage1.kf.setImage(with : url, placeholder: UIImage(named: "Placeholder"),options: [.transition(ImageTransition.flipFromBottom(0.5))])
         roomImage2.kf.setImage(with: url, placeholder: UIImage(named: "Placeholder"),options: [.transition(ImageTransition.flipFromBottom(0.5))])
         roomImage3.kf.setImage(with : url, placeholder: UIImage(named: "Placeholder"),options: [.transition(ImageTransition.flipFromBottom(0.5))])
