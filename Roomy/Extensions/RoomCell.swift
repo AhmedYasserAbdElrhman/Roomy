@@ -19,7 +19,9 @@ class RoomCell: UITableViewCell {
     @IBOutlet weak var roomImage1: UIImageView!
     @IBOutlet weak var roomImage2: UIImageView!
     @IBOutlet weak var roomImage3: UIImageView!
+    @IBOutlet weak var descLabel : UILabel!
     func setCell(cell:Room){
+        descLabel.text = cell.descriptionText
         hotelAddress.text = cell.adress
         roomPrice.text = cell.price
         roomSatate.text = cell.stateAdress

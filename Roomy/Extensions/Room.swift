@@ -16,7 +16,7 @@ class Room : NSObject{
     var stateAdress:String = ""
     var price:String = ""
     var info:String = ""
-    var descriptionText: String = ""
+    var descriptionText: String = "2 bed 1 bath"
     var descriptionPic: UIImage = UIImage(named: "Placeholder")!
     var descriptionL: String = ""
     /*init(image:[UIImage],adress:String,cityAdress:String,price:String,info:String) {

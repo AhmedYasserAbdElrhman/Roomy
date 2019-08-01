@@ -22,17 +22,22 @@ class SignInViewController: UIViewController,NVActivityIndicatorViewable{
             if success {
                 self.performSegue(withIdentifier: "HomeView", sender: self)
 
-            }
-            else {
+            } else {
                  self.stopAnimating()
                 let alert = UIAlertController(title: "Login Failed", message: "Please Try Again", preferredStyle: .alert)
                 let action = UIAlertAction(title: "Try Again", style: .default, handler: nil)
                 alert.addAction(action)
                 self.present(alert, animated: true ,completion: nil)
                 
-            }
         }
     }
+            
+        } else {
+                let alert = UIAlertController(title: "No Internet Connection",message: "Please Try Again Later",preferredStyle: .alert)
+                let action = UIAlertAction(title: "OK", style: .default, handler: nil)
+                alert.addAction(action)
+                self.present(alert, animated: true, completion: nil)
+        }
 }
     override func viewDidLoad() {
         super.viewDidLoad()

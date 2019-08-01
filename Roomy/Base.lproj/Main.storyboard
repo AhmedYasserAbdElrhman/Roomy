@@ -42,7 +42,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="landing" translatesAutoresizingMaskIntoConstraints="NO" id="vFJ-1b-W2Q">
-                                <rect key="frame" x="0.0" y="376" width="375" height="291"/>
+                                <rect key="frame" x="0.0" y="376" width="375.00000000000006" height="291"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="291" id="6Hd-MK-BSo"/>
                                 </constraints>
@@ -207,6 +207,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="descLabel" destination="fjO-It-WuQ" id="Pcw-89-21V"/>
                                             <outlet property="hotelAddress" destination="zO4-2W-sio" id="GhK-Jm-moq"/>
                                             <outlet property="roomImage1" destination="L5a-Yw-Ytk" id="RdD-8q-aUa"/>
                                             <outlet property="roomImage2" destination="WS0-ag-5cC" id="toR-Tc-ZyF"/>
