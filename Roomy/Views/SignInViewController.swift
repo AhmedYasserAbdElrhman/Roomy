@@ -41,6 +41,7 @@ class SignInViewController: UIViewController,NVActivityIndicatorViewable{
 }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
     
     @IBAction func toSignUpView(_ sender: Any) {
