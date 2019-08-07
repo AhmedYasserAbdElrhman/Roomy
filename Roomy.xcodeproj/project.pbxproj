@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -28,11 +28,10 @@
 		2FD83DF322E624B600A9C708 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD83DF222E624B600A9C708 /* Images.xcassets */; };
 		2FE9F11F22E2E611003E1201 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE9F11E22E2E611003E1201 /* SignUpViewController.swift */; };
 		2FF3DE8F22E2942E00FC409C /* NetworkCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF3DE8E22E2942E00FC409C /* NetworkCalls.swift */; };
-		80D1A1CFB0D130147870078E /* Pods_Roomy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BFBE962F0606D67D7DDD1B4 /* Pods_Roomy.framework */; };
+		A658DB64A67D63A6C34A2452 /* Pods_Roomy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2DF61AD0D6FC8C9D9A1484 /* Pods_Roomy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2E3B09239BEA62A8BB4256CC /* Pods-Roomy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roomy.debug.xcconfig"; path = "Target Support Files/Pods-Roomy/Pods-Roomy.debug.xcconfig"; sourceTree = "<group>"; };
 		2F3571C622E9E92E00DEADD6 /* FetchRooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchRooms.swift; sourceTree = "<group>"; };
 		2F3DCDCC22D8B2B700F49B74 /* Roomy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roomy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F3DCDCF22D8B2B700F49B74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,8 +55,9 @@
 		2FD83DF222E624B600A9C708 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2FE9F11E22E2E611003E1201 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		2FF3DE8E22E2942E00FC409C /* NetworkCalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCalls.swift; sourceTree = "<group>"; };
-		8BFBE962F0606D67D7DDD1B4 /* Pods_Roomy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Roomy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		905225F4C3F57DBF877ED9C4 /* Pods-Roomy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roomy.release.xcconfig"; path = "Target Support Files/Pods-Roomy/Pods-Roomy.release.xcconfig"; sourceTree = "<group>"; };
+		45FB64E2F478FCC65207A9DA /* Pods-Roomy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roomy.release.xcconfig"; path = "Target Support Files/Pods-Roomy/Pods-Roomy.release.xcconfig"; sourceTree = "<group>"; };
+		5E2DF61AD0D6FC8C9D9A1484 /* Pods_Roomy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Roomy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C81E3D9A838ADF33AC7C964B /* Pods-Roomy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roomy.debug.xcconfig"; path = "Target Support Files/Pods-Roomy/Pods-Roomy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80D1A1CFB0D130147870078E /* Pods_Roomy.framework in Frameworks */,
+				A658DB64A67D63A6C34A2452 /* Pods_Roomy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,8 +77,8 @@
 			children = (
 				2F3DCDCE22D8B2B700F49B74 /* Roomy */,
 				2F3DCDCD22D8B2B700F49B74 /* Products */,
-				A1CF6D36741E99BFB0A5E35B /* Pods */,
-				3D2B39ACF4D43EDC9EE6E0E2 /* Frameworks */,
+				A521980A69189D489C3E0FBE /* Pods */,
+				6C8726BA5B8B083ADFBA6D68 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,20 +159,21 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		3D2B39ACF4D43EDC9EE6E0E2 /* Frameworks */ = {
+		6C8726BA5B8B083ADFBA6D68 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8BFBE962F0606D67D7DDD1B4 /* Pods_Roomy.framework */,
+				5E2DF61AD0D6FC8C9D9A1484 /* Pods_Roomy.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A1CF6D36741E99BFB0A5E35B /* Pods */ = {
+		A521980A69189D489C3E0FBE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2E3B09239BEA62A8BB4256CC /* Pods-Roomy.debug.xcconfig */,
-				905225F4C3F57DBF877ED9C4 /* Pods-Roomy.release.xcconfig */,
+				C81E3D9A838ADF33AC7C964B /* Pods-Roomy.debug.xcconfig */,
+				45FB64E2F478FCC65207A9DA /* Pods-Roomy.release.xcconfig */,
 			);
+			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -183,11 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F3DCDDE22D8B2B800F49B74 /* Build configuration list for PBXNativeTarget "Roomy" */;
 			buildPhases = (
-				E914E3F450462BA78B8F98DB /* [CP] Check Pods Manifest.lock */,
+				9BA63A34DE2A1B2B1FBD750C /* [CP] Check Pods Manifest.lock */,
 				2F3DCDC822D8B2B700F49B74 /* Sources */,
 				2F3DCDC922D8B2B700F49B74 /* Frameworks */,
 				2F3DCDCA22D8B2B700F49B74 /* Resources */,
-				383946F8784EEDE68AA085CB /* [CP] Embed Pods Frameworks */,
+				3DF8DD4760818C642A44CCA2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -245,7 +246,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		383946F8784EEDE68AA085CB /* [CP] Embed Pods Frameworks */ = {
+		3DF8DD4760818C642A44CCA2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -262,7 +263,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Roomy/Pods-Roomy-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E914E3F450462BA78B8F98DB /* [CP] Check Pods Manifest.lock */ = {
+		9BA63A34DE2A1B2B1FBD750C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -452,7 +453,7 @@
 		};
 		2F3DCDDF22D8B2B800F49B74 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E3B09239BEA62A8BB4256CC /* Pods-Roomy.debug.xcconfig */;
+			baseConfigurationReference = C81E3D9A838ADF33AC7C964B /* Pods-Roomy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -471,7 +472,7 @@
 		};
 		2F3DCDE022D8B2B800F49B74 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 905225F4C3F57DBF877ED9C4 /* Pods-Roomy.release.xcconfig */;
+			baseConfigurationReference = 45FB64E2F478FCC65207A9DA /* Pods-Roomy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

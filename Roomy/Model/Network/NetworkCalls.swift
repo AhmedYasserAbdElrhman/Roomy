@@ -26,6 +26,7 @@ class NetworkCall:NSObject {
         }
         
     }
+  
     class func signUp(name:String,email:String,password:String, completion: @escaping (Error?,Bool) ->Void){
         let paramters = ["name":name,"email":email,"password":password]
         Alamofire.request(NetworkRoute.register(paramters)) .validate() .responseJSON{ response in

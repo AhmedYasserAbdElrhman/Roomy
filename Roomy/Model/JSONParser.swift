@@ -17,7 +17,6 @@ class Parser:NSObject {
         }
     }
     
-    
     class func parseRooms(from value : [JSON])->[Room]!{
         var rooms = [Room]()
         for reply in value{

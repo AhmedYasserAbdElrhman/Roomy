@@ -20,12 +20,4 @@ class Room : Object {
     var descriptionText: String = "2 bed 1 bath"
     var descriptionPic: UIImage = UIImage(named: "Placeholder")!
     var descriptionL: String = ""
-    /*init(image:[UIImage],adress:String,cityAdress:String,price:String,info:String) {
-        self.image=image
-        self.adress=adress
-        self.stateAdress=cityAdress
-        self.price="$\(price)"
-        self.info=info
-        
-    }*/
 }

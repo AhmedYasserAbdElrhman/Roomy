@@ -9,6 +9,7 @@
 import Foundation
 import Alamofire
 import SwiftyJSON
+import RealmSwift
 
 class FetchRooms : NSObject {
     class func getRoomsInBackend ( completion: @escaping (Error?,[Room]?) -> Void ) {
@@ -31,10 +32,19 @@ class FetchRooms : NSObject {
     }
     
     class func getRoomsInDB( completion : @escaping (Error?,[Room]?) -> Void ){
-        let dbRooms = RealmServices.shared.readAllRooms()
-        let parsRooms = Parser.parseRooms(from: JSON(dbRooms).array!)
-        completion(nil,parsRooms)
+      let dbRooms = RealmServices.shared.readAllRooms()
+      let value = JSON(dbRooms).array!
+      var rooms = [Room]()
+      for reply in value{
+        guard let reply = reply.dictionary else { return }
+        let room = Room()
+        room.id = reply["id"]?.int ?? 0
+        room.adress = reply["title"]?.string ?? ""
+        room.price = reply["price"]?.string ?? "0"
+        room.stateAdress = reply["place"]?.string ?? ""
+        room.descriptionL = reply["image"]?.string ?? ""
+        rooms.append(room)
     }
-    
-    
+      completion(nil,rooms)
+  }
 }

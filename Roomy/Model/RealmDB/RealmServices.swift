@@ -10,11 +10,11 @@ import Foundation
 import RealmSwift
 
 class RealmServices{
-    private init() {}
 
     static let shared = RealmServices()
     var realm = try! Realm()
     
+    private init() {}
     
     func addDB (room : Room){
         let realm = try! Realm()
