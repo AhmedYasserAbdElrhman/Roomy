@@ -7,10 +7,15 @@
 //
 
 import UIKit
-
+import RealmSwift
 class LandingViewController: UIViewController {
     @IBAction func showLogin(_ sender: Any) {
+    
+        print(Realm.Configuration.defaultConfiguration.fileURL)
         self.performSegue(withIdentifier: "SignInView", sender: self)
+        let realm = RealmServices.shared.realm
+
+        
     }
     override func viewDidLoad() {
         super.viewDidLoad()

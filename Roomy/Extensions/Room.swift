@@ -8,8 +8,9 @@
 
 import Foundation
 import UIKit
+import RealmSwift
 
-class Room : NSObject{
+class Room : Object {
     var id : Int = 0
     var image:String = ""
     var adress:String = ""

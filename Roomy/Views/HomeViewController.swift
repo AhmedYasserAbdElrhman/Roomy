@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 
 class HomeViewController: UIViewController{
@@ -15,6 +16,7 @@ class HomeViewController: UIViewController{
     @IBOutlet weak var tableO: UITableView!
     
     override func viewWillAppear(_ animated: Bool) {
+        let realm = RealmServices.shared.realm
         self.navigationController?.isNavigationBarHidden = false
         if Connection.isConnected() {
             FetchRooms.getRoomsInBackend { (error, rooms) in
@@ -36,6 +38,8 @@ class HomeViewController: UIViewController{
 }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print(Realm.Configuration.defaultConfiguration.fileURL!)
         self.navigationItem.setRightBarButton(UIBarButtonItem(title: "Log Out", style: .plain, target: self, action: #selector(logoutalert)), animated: true)
 
     }

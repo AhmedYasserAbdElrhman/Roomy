@@ -31,8 +31,7 @@ class FetchRooms : NSObject {
     }
     
     class func getRoomsInDB( completion : @escaping (Error?,[Room]?) -> Void ){
-        let offlineRooms = roomsOFFline()
-        let dbRooms = offlineRooms.readAllRooms()
+        let dbRooms = RealmServices.shared.readAllRooms()
         let parsRooms = Parser.parseRooms(from: JSON(dbRooms).array!)
         completion(nil,parsRooms)
     }

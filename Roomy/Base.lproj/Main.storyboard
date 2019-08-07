@@ -252,14 +252,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Homeicon" translatesAutoresizingMaskIntoConstraints="NO" id="Ozf-1b-6oY">
-                                <rect key="frame" x="143" y="69" width="89" height="86"/>
+                                <rect key="frame" x="143" y="69" width="128" height="86"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="89" id="mzx-Tc-v8t"/>
                                     <constraint firstAttribute="height" constant="86" id="xUg-cb-Zcx"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Creat Your Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kys-RO-8Nx">
-                                <rect key="frame" x="55" y="146" width="265" height="39"/>
+                                <rect key="frame" x="55" y="146" width="304" height="39"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -271,7 +271,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your Username" textAlignment="natural" clearsOnBeginEditing="YES" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" clearButtonMode="unlessEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Kgt-gF-n89">
-                                <rect key="frame" x="16" y="260" width="343" height="30"/>
+                                <rect key="frame" x="16" y="260" width="382" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="gHd-o2-kW0"/>
                                 </constraints>
@@ -290,7 +290,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iUh-er-Pxq">
-                                <rect key="frame" x="16" y="626" width="343" height="30"/>
+                                <rect key="frame" x="16" y="626" width="382" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="3SH-2l-gda"/>
                                 </constraints>
@@ -299,7 +299,7 @@
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ap-tm-wOg" customClass="RoundedButton" customModule="Roomy" customModuleProvider="target">
-                                <rect key="frame" x="79" y="709" width="218" height="30"/>
+                                <rect key="frame" x="79" y="709" width="257" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.38502483009999999" blue="0.03297875393" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Ek8-wc-dsb"/>
@@ -328,7 +328,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your Email" textAlignment="natural" clearsOnBeginEditing="YES" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" clearButtonMode="unlessEditing" translatesAutoresizingMaskIntoConstraints="NO" id="a72-vd-oPk">
-                                <rect key="frame" x="16" y="539" width="343" height="30"/>
+                                <rect key="frame" x="16" y="539" width="382" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="l5h-CD-kod"/>
                                 </constraints>

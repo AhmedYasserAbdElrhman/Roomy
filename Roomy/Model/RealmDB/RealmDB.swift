@@ -20,30 +20,9 @@ class roomsOFFline : Object {
     @objc dynamic var descriptionPic: UIImage = UIImage(named: "Placeholder")!
     @objc dynamic var descriptionL: String = ""
     
-    override static func primaryKey() -> String? {
-        return "id"
-    }
+//    override static func primaryKey() -> String? {
+//        return "id"
+//    }
     
-    func addDB (room : Room){
-        let realm = try! Realm()
-        try! realm.write {
-            let realmRoom = roomsOFFline()
-            realmRoom.id = room.id
-            realmRoom.adress = room.adress
-            realmRoom.stateAdress = room.stateAdress
-            realmRoom.image = room.image
-            realmRoom.price = room.price
-            realmRoom.info = room.info
-            realmRoom.descriptionText = room.descriptionText
-            realmRoom.descriptionL = room.descriptionL
-            realm.add(realmRoom,update: .modified)
-        }
-    }
-    
-    func readAllRooms() -> Results<roomsOFFline> {
-        let realm = try! Realm()
-        let rooms = realm.objects(roomsOFFline.self)
-        return rooms
-    }
 
 }
